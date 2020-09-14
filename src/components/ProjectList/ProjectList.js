@@ -10,6 +10,21 @@ const projectList = props => {
 			<ProjectCard />
 			<ProjectCard />
 			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
+			<ProjectCard />
 		</div>
 	);
 }

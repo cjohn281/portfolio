@@ -1,0 +1,44 @@
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 35rem;
+	height: 42rem;
+	border: 1px solid black;
+	border-radius: 1rem;
+	margin: 0 1.5rem 3rem 1.5rem;
+	box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.project-title {
+	font-size: 2.5rem;
+	margin: 1rem 0;
+	padding: 0;
+}
+
+img {
+	border: 1px solid black;
+}
+
+.project-info {
+	width: 100%;
+	font-size: 2rem;
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem 0;
+}
+
+.project-tags {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.tag {
+	font-size: 1.3rem;
+	margin: 0 .5rem 1rem .5rem;
+	background-color: #bbb;
+	padding: 0 .7rem;
+}
