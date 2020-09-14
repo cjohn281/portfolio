@@ -1,6 +1,54 @@
-.menuBtn-container {
-	width: 4rem;
-	height: 4rem;
-	border: 1px solid black;
-	margin: 1rem auto;
+.menuBtn {
+	height: 1.8rem;
+	margin-top: 3rem;
+  cursor: pointer;
+  padding: .7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line {
+	height: .2rem;
+	width: 1.5rem;
+  background-color: #222;
+  transition: all .2s;
+}
+
+.line-1-closed {
+	width: 1.5rem;
+	transition: all .2s;
+}
+
+.line-2-closed {
+	width: 2rem;
+	transition: all .2s;
+}
+
+.line-3-closed {
+	width: 2.5rem;
+	transition: all .2s;
+}
+
+.menuBtn:hover .line-1-closed, 
+.menuBtn:hover .line-2-closed {
+	width: 2.5rem;
+}
+
+.line-1-open {
+	width: 2.5rem;
+	transform: rotateZ(225deg);
+	position: relative;
+	top: 47%;
+}
+
+.line-2-open {
+	display: none;
+}
+
+.line-3-open {
+	width: 2.5rem;
+	transform: rotateZ(-225deg);
+	position: relative;
+	top: -47%;
 }

@@ -1,0 +1,28 @@
+.footer {
+	width: 100vw;
+	height: 7.3rem;
+	color: #000;
+	font-size: 1.5rem;
+	background-color: #aaa;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.cr {
+	font-size: 2rem;
+}
+
+.react {
+	color: #61DBFB;
+	background-color: #444;
+	padding: .2rem .3rem;
+}

@@ -3,7 +3,30 @@
 	width: 8rem;
 	height: 100vh;
 	position: fixed;
-	top: 15rem;
+	top: 0;
 	left: 0;
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.social-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.social-links {
+	font-size: 3rem;
+}
+
+.sidebar-date {
+	font-size: 1.7rem;
+	margin-bottom: 1rem;
 }

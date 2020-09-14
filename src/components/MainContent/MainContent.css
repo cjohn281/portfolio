@@ -1,0 +1,9 @@
+.content-container {
+	background-color: #ccc;
+	position: fixed;
+	top: 15rem;
+	right: 0;
+	bottom: 7.3rem;
+	left: 8rem;
+	padding: 1.5rem;
+}
