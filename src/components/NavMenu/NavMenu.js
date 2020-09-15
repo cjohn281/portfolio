@@ -6,7 +6,9 @@ import Pdf from '../../resources/resume.pdf';
 import './NavMenu.css';
 
 const navMenu = ({click, open}) => {
-
+/***************************************************************************************************
+Determine which css classes should be applied to the navigation menu
+***************************************************************************************************/
 	let navClass;
 	if (open) navClass = "nav-menu open";
 	else navClass = "nav-menu";

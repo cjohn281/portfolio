@@ -4,27 +4,24 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 import './ProjectList.css';
 
-const projectList = props => {
+const projectList = ({projectObjs}) => {
+
 	return (
 		<div className="project-list">
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
+			{
+				projectObjs.map((project) => {
+					return (
+						<ProjectCard 
+							key={project.id}
+							title={project.title}
+							imgUrl={project.imgUrl}
+							sourceUrl={project.sourceUrl}
+							description={project.description}
+							tags={project.tags}
+						/>
+					);
+				})
+			}
 		</div>
 	);
 }

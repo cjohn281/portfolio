@@ -4,7 +4,7 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 35rem;
-	height: 42rem;
+	height: 43rem;
 	border: 1px solid black;
 	border-radius: 1rem;
 	margin: 0 1.5rem 3rem 1.5rem;
@@ -14,7 +14,7 @@
 .project-title {
 	font-size: 2.5rem;
 	margin: 1rem 0;
-	padding: 0;
+	padding: .5rem 0 0 0;
 }
 
 img {
@@ -29,6 +29,41 @@ img {
 	margin: 1rem 0;
 }
 
+.description {
+	position: relative;
+	border-bottom: 1px dotted rgba(0, 0, 0, .8);
+}
+
+.description .description-text {
+	box-sizing: border-box;
+	width: 20rem;
+	visibility: hidden;
+	background-color: rgba(0, 0, 0, .9);
+	color: #fff;
+	text-align: center;
+	border-radius: .7rem;
+	padding: 1rem 1rem;
+	position: absolute; 
+	z-index: 1000;
+	bottom: 110%;
+	left: -50%;
+}
+
+.description .description-text::after {
+	content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.description:hover .description-text {
+	visibility: visible;
+}
+
 .project-tags {
 	display: flex;
 	flex-wrap: wrap;
@@ -41,4 +76,5 @@ img {
 	margin: 0 .5rem 1rem .5rem;
 	background-color: #bbb;
 	padding: 0 .7rem;
+	text-transform: lowercase;
 }

@@ -2,24 +2,31 @@ import React from 'react';
 
 import './ProjectCard.css';
 
-const projectCard = props => {
-
+const projectCard = ({key, title, imgUrl, sourceUrl, description, tags}) => {
 
 	return (
 		<div className="card-container">
-			<div><h3 className="project-title">Title</h3></div>
-			<img src="https://robohash.org/test?200x200" alt="robo" />
+			<div><h3 className="project-title">{title}</h3></div>
+			<img src={`https://robohash.org/${title}?200x200`} alt="robo" />
 			<div className="project-info">
-				<div>Description</div>
+				<div className="description">Description
+					<span className="description-text">{description}</span>
+				</div>
+				<div><a href={sourceUrl} target="_blank"  rel="noopener noreferrer">Source Code</a></div>
 			</div>
 			<div className="project-tags">
-				<span className="tag">Tag</span>
-				<span className="tag">Tag</span>
-				<span className="tag">Tag</span>
-				<span className="tag">Tag</span>
-				<span className="tag">Tag</span>
-				<span className="tag">Tag</span>
-				<span className="tag">Tag</span>
+				{
+					tags.map((tag, i) => {
+						return (
+							<span
+								key={i}
+								className="tag"
+							>
+								{tag}
+							</span>
+						);
+					})
+				}
 			</div>
 		</div>
 	);

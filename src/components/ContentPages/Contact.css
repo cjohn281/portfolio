@@ -1,0 +1,23 @@
+.contact-content {
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.contact-heading {
+	margin: 1rem 0 2rem 0;
+	font-size: 3.7rem;
+	font-weight: 400;
+}
+
+h3 {
+	margin: .5rem;
+	font-weight: 400;
+}
+
+h5 {
+	margin: .5rem;
+	font-weight: 400;
+}

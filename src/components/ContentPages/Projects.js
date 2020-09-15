@@ -5,13 +5,13 @@ import ProjectList from '../ProjectList/ProjectList';
 
 import './Projects.css';
 
-const projects = props => {
+const projects = ({searchChange, projectObjs}) => {
 
 	return (
 		<div className="projects-content">
 			<h1 className="projects-heading">Projects</h1>
-			<SearchBox />
-			<ProjectList />
+			<SearchBox searchChange={searchChange} />
+			<ProjectList projectObjs={projectObjs} />
 		</div>
 	);
 }

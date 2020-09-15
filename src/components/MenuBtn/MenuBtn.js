@@ -3,6 +3,9 @@ import React from 'react';
 import './MenuBtn.css';
 
 const menuBtn = ({sidePanelToggleClickHandler, open}) => {
+/***************************************************************************************************
+Determine which css classes should be applied to the lines of the menu button
+***************************************************************************************************/
 	let line1, line2, line3;
 	if (open) {
 		line1="line line-1-open";
