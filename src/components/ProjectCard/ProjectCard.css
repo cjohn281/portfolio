@@ -9,6 +9,7 @@
 	border-radius: 1rem;
 	margin: 0 1.5rem 3rem 1.5rem;
 	box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, 0.4);
+	background-color: #ddd;
 }
 
 .project-title {

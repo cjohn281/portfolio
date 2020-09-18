@@ -1,5 +1,5 @@
 .sidebar {
-	background-color: #ccc;
+	background-color: #112;
 	width: 8rem;
 	height: 100vh;
 	position: fixed;
@@ -10,6 +10,8 @@
 	justify-content: space-between;
 	align-items: center;
 	z-index: 100;
+	color: #d841d3;
+	font-weight: 500;
 }
 
 .social-list {
@@ -29,4 +31,24 @@
 .sidebar-date {
 	font-size: 1.7rem;
 	margin-bottom: 1rem;
+}
+
+.sidebar a:link {
+	text-decoration: none;
+	color: #d841d3;
+}
+
+.sidebar a:visited {
+	text-decoration: none;
+	color: #d841d3;
+}
+
+.sidebar a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.sidebar a:active {
+	text-decoration: none;
+	color: #d841d3;
 }
