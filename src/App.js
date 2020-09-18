@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import NavMenu from './components/NavMenu/NavMenu';
 import MainContent from './components/MainContent/MainContent';
