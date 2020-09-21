@@ -10,6 +10,7 @@ const projects = ({searchChange, projectObjs}) => {
 	return (
 		<div className="projects-content">
 			<h1 className="projects-heading">Projects</h1>
+			<h3 className="projects-subheading">(Many more coming soon...)</h3>
 			<SearchBox searchChange={searchChange} />
 			<ProjectList projectObjs={projectObjs} />
 		</div>

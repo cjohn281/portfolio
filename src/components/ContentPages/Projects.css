@@ -4,7 +4,12 @@
 }
 
 .projects-heading {
-	margin: 1rem 0 2rem 0;
+	margin: 1rem 0 0 0;
 	font-size: 3.7rem;
 	font-weight: 400;
+}
+
+.projects-subheading {
+	margin: .5rem 0 2rem 0;
+	font-size: 2rem;
 }

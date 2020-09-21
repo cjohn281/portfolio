@@ -5,7 +5,7 @@ import './SearchBox.css';
 const searchBox = ({searchChange}) => {
 
 	return (
-		<input type="search" placeholder="Search Projects..." className="searchbox" onChange={searchChange}/>
+		<input type="search" placeholder="Search projects..." className="searchbox" onChange={searchChange}/>
 	);
 }
 
