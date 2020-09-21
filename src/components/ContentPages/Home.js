@@ -21,10 +21,17 @@ const home = props => {
 				<div className="spacer" />
 			</div>
 			<div className="home-body">
-
+				<p>
+					Hello! Thank you for checking out my site.  My name is Christopher Johnson. I graduated from the University of North Carolina at Charlotte in 2013 with a Bachelor of Science in Computer Science, with a focus on application software development.  I've since also expanded my skillset to include web and mobile application development.
+				</p>
+				<p>
+					I am always excited to learn new technologies and I am excited for the opportunity to improve my skills and knowledge by working with a team of other developers.  My resume, recent projects and contact information can be viewed from the navigation menu.  Thank you for taking the time to look over my portfolio!
+				</p>
 			</div>
 			<div className="home-contact">
-
+				<div>Christopher Johnson</div>
+				<div>cjohn281@outlook.com</div>
+				<div>919-548-9775</div>
 			</div>
 		</div>
 	);
