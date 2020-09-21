@@ -52,3 +52,10 @@
 	text-decoration: none;
 	color: #d841d3;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 500px) {
+	.sidebar {
+		width: 5rem;
+	}
+}

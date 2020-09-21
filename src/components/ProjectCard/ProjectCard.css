@@ -20,6 +20,7 @@
 
 img {
 	border: 1px solid black;
+	width: 80%;
 }
 
 .project-info {
@@ -78,4 +79,12 @@ img {
 	background-color: #bbb;
 	padding: 0 .7rem;
 	text-transform: lowercase;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 800px) {
+	.card-container {
+		width: 25rem;
+		height: 35rem;
+	}
 }
