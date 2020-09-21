@@ -17,6 +17,10 @@ p {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 .cr {
 	font-size: 2rem;
 }
