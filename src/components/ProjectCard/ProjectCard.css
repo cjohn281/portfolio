@@ -88,3 +88,13 @@ img {
 		height: 35rem;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.description .description-text {
+		left: 0;
+	}
+
+	.description .description-text::after {
+		left: 25%;
+	}
+}
