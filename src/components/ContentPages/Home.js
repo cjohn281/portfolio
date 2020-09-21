@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Home.css';
-import profileImage from '../../resources/img/me1.jpg';
+import profileImage from '../../resources/img/profile.jpg';
 
 const home = props => {
 
@@ -29,7 +29,6 @@ const home = props => {
 				</p>
 			</div>
 			<div className="home-contact">
-				<div>Christopher Johnson</div>
 				<div>cjohn281@outlook.com</div>
 				<div>919-548-9775</div>
 			</div>

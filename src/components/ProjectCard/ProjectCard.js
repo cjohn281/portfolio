@@ -19,7 +19,7 @@ const projectCard = ({key, title, imgUrl, sourceUrl, description, tags}) => {
 					tags.map((tag, i) => {
 						return (
 							<span
-								key={i}
+								key={`tag${i}`}
 								className="tag"
 							>
 								{tag}

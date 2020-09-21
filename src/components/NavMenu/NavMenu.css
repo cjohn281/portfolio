@@ -41,20 +41,20 @@
 	justify-content: space-evenly;
 }
 
-.nav-list a {
+.navbar-link {
 	text-decoration: none;
+	color: #ddd;
+	font-weight: 400;
+	border-bottom: 3px solid transparent;
+	transition: border-bottom .2s;
 }
 
-.nav-list a:link {
+.navbar-link:link {
 	color: #ddd;
 }
 
-.nav-list a:visited {
-	color: #ddd;
-}
-
-.nav-list a:hover {
-	
+.navbar-link:hover {
+	border-bottom: 3px solid #d841d3;
 }
 
 .personal-info {
@@ -67,4 +67,10 @@
 
 .personal-info span {
 	margin-bottom: .4rem;
+}
+
+.navbar-link--active {
+	color: #d841d3;
+	border-bottom: 3px solid #d841d3;
+	pointer-events: none;
 }

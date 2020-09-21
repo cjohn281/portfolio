@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import Pdf from '../../resources/resume.pdf';
 
@@ -18,16 +18,46 @@ Determine which css classes should be applied to the navigation menu
 			<div className="nav-list-container">
 				<ul className="nav-list">
 					<li>
-						<Link to="/" onClick={click}>Home</Link>
+						<NavLink
+							exact to="/"
+							className="navbar-link"
+							activeClassName="navbar-link--active"
+							onClick={click}
+						>
+							Home
+						</NavLink>
 					</li>
 					<li>
-						<Link to="/projects" onClick={click}>Projects</Link>
+						<NavLink
+							to="/projects"
+							className="navbar-link"
+							activeClassName="navbar-link--active"
+							onClick={click}
+						>
+							Projects
+						</NavLink>
 					</li>
 					<li>
-						<a href={Pdf} target="_blank" rel="noopener noreferrer"  onClick={click}>Resume/CV</a>
+						<a
+							href={Pdf}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="navbar-link"
+							activeClassName="navbar-link--active"
+							onClick={click}
+						>
+							Resume/CV
+						</a>
 					</li>
 					<li>
-						<Link to="/contact"  onClick={click}>Contact</Link>
+						<NavLink
+							to="/contact"
+							className="navbar-link"
+							activeClassName="navbar-link--active"
+							onClick={click}
+						>
+							Contact
+						</NavLink>
 					</li>
 				</ul>
 			</div>
