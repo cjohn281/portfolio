@@ -4,7 +4,6 @@ import Sidebar from './components/Sidebar/Sidebar';
 import NavMenu from './components/NavMenu/NavMenu';
 import MainContent from './components/MainContent/MainContent';
 import Backdrop from './components/Backdrop/Backdrop';
-import Footer from './components/Footer/Footer';
 import {projectObjs} from './resources/projectObjs';
 
 import './App.css';
@@ -60,7 +59,6 @@ filteredProjects uses a filter method in order to display only the projects that
         <NavMenu open={this.state.sidePanelOpen} click={this.sidePanelToggleClickHandler} />
         <MainContent searchChange={this.onSearchChange} projectObjs={filteredProjects} />
         <Backdrop sidePanelToggleClickHandler={this.sidePanelToggleClickHandler} open={this.state.sidePanelOpen} />
-        <Footer />
 	    </div>
 	  );
   }

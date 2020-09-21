@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Home from '../ContentPages/Home';
 import Projects from '../ContentPages/Projects';
 import Contact from '../ContentPages/Contact';
+import Footer from '../Footer/Footer';
 
 import './MainContent.css';
 
@@ -24,6 +25,7 @@ const mainContent = ({searchChange, projectObjs}) => {
         <Route path="/contact" component={Contact} />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </div>
   );
 }
