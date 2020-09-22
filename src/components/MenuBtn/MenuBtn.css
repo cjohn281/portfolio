@@ -11,9 +11,8 @@
 .line {
 	height: .2rem;
 	width: 1.5rem;
-  background-color: #222;
   transition: all .2s;
-  background-color: #782ec2;
+  background-color: #d841d3;
 }
 
 .line-1-closed {
@@ -32,8 +31,10 @@
 }
 
 .menuBtn:hover .line-1-closed, 
-.menuBtn:hover .line-2-closed {
+.menuBtn:hover .line-2-closed,
+.menuBtn:hover .line-3-closed {
 	width: 2.5rem;
+	background-color: #ddd;
 }
 
 .line-1-open {
@@ -52,4 +53,10 @@
 	transform: rotateZ(-225deg);
 	position: relative;
 	top: -47%;
+}
+
+.menuBtn:hover .line-1-open, 
+.menuBtn:hover .line-2-open,
+.menuBtn:hover .line-3-open {
+	background-color: #ddd;
 }
