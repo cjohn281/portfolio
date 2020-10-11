@@ -3,16 +3,16 @@
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to top, #111, #11c);
+	background: linear-gradient(to bottom, #112, #112, #334);
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 
 .main-heading {
 	color: #fff;
 	font-size: 5rem;
-	margin: 0 3rem 2rem 0;
+	margin: 1.5rem 3rem 0 0;
 }
 
 /* Responsive Styles */

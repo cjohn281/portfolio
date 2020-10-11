@@ -5,10 +5,11 @@
 	justify-content: flex-start;
 	align-items: center;
 	padding-bottom: 7.3rem;
+	margin-top: 8rem;
 }
 
 .contact-heading {
-	margin: 1rem 0 2rem 0;
+	margin: 1rem 0 3rem 0;
 	font-size: 3.7rem;
 	font-weight: 400;
 }
