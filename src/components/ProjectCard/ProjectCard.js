@@ -2,12 +2,12 @@ import React from 'react';
 
 import './ProjectCard.css';
 
-const projectCard = ({key, title, imgUrl, sourceUrl, description, tags}) => {
+const projectCard = ({key, title, sourceUrl, description, tags}) => {
 
 	return (
 		<div className="card-container">
 			<div><h3 className="project-title">{title}</h3></div>
-			<img src={`https://robohash.org/${title}?200x200`} alt="robo" />
+			<img src={`./img/${title.toLowerCase()}.JPG`} alt={title} />
 			<div className="project-info">
 				<div className="description">Description
 					<span className="description-text">{description}</span>
