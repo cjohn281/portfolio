@@ -20,6 +20,7 @@ export const projectObjs = [
 										"add and edit commands quickly and easily.",
 		"tags": [
 			"Java",
+			"Maven",
 			"GUI",
 			"irc",
 			"Twitch"
