@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import Pdf from '../../resources/resume.pdf';
+import resume from '../../resources/Chris_Johnson_Resume_2020.pdf';
 
 import './NavMenu.css';
 
@@ -39,7 +39,7 @@ Determine which css classes should be applied to the navigation menu
 					</li>
 					<li>
 						<a
-							href={Pdf}
+							href={resume}
 							target="_blank"
 							rel="noopener noreferrer"
 							className="navbar-link"
