@@ -7,7 +7,7 @@ const projectCard = ({key, title, sourceUrl, description, tags}) => {
 	return (
 		<div className="card-container">
 			<div><h3 className="project-title">{title}</h3></div>
-			<img src={`./img/${title.toLowerCase()}.JPG`} alt={title} />
+			<img src={`./img/${title.toLowerCase().replace(/\s/g, "")}.JPG`} alt={title} />
 			<div className="project-info">
 				<div className="description">Description
 					<span className="description-text">{description}</span>

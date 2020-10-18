@@ -25,5 +25,19 @@ export const projectObjs = [
 			"irc",
 			"Twitch"
 		]
+	},
+	{
+		"id": 3,
+		"title": "Restaurant Roulette",
+		"sourceUrl": "https://github.com/cjohn281/RestaurantRoulette",
+		"description": "Restaurant Roulette is a restaurant suggestion service that " +
+										"will pick a restaurant for you so you don't have to!",
+		"tags": [
+			"Java",
+			"Android",
+			"Mobile",
+			"API",
+			"SQLite"
+		]
 	}
 ]
