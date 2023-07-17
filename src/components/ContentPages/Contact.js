@@ -10,7 +10,7 @@ const contact = props => {
 			<h3>Christopher Johnson</h3>
 			<h5>cjohn281@outlook.com</h5>
 			<h5>919-548-9775</h5>
-			<h5>Pittsboro, NC</h5>
+			<h5>Phoenix, AZ</h5>
 		</div>
 	);
 }
