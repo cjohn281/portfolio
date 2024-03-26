@@ -64,7 +64,7 @@ Determine which css classes should be applied to the navigation menu
 
 			<div className="personal-info">
 				<span>Christopher Johnson</span>
-				<span>Pittsboro, NC</span>
+				<span>Phoenix, AZ</span>
 				<span>919-548-9775</span>
 			</div>
 		</div>
