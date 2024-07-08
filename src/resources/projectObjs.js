@@ -39,5 +39,19 @@ export const projectObjs = [
 			"API",
 			"SQLite"
 		]
+	},
+	{
+		"id": 4,
+		"title": "Weather Tracker",
+		"sourceUrl": "https://github.com/cjohn281/py-weather-tracker",
+		"description": "Weather Tracker is a simple python application that can gather " +
+										"weather data for a particular location for any number of dates " +
+										"and can send alerts via SMS. Useful for vacation planning :)",
+		"tags": [
+			"Python",
+			"API",
+			"Twilio",
+			"SMS"
+		]
 	}
 ]
