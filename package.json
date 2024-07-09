@@ -13,9 +13,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1"
   },
-  "devDependencies": {
-    "gh-pages": "5.0.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
