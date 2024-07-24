@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import resume from '../../resources/Chris_Johnson_Resume_2020.pdf';
+import resume from '../../resources/Chris_Johnson_Resume_2024.pdf';
 
 import './NavMenu.css';
 
